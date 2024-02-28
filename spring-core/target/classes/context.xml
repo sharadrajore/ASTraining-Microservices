@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!--<bean id="product" class="com.zensar.spring_core.beans.Product">
+		<property name="productId">
+			<value>101</value>
+		</property>  
+		<property name="productName" value="Laptop"></property>
+	</bean>-->
+
+	<!--<bean id="product" class="com.zensar.spring_core.beans.Product">
+		<constructor-arg value="123"  index="2" type="double"></constructor-arg>
+		<constructor-arg value="IPad"  index="1" type="java.lang.String"></constructor-arg>
+		<constructor-arg value="90000"  index="0" type="int"></constructor-arg>
+		<constructor-arg>
+			<value>2</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>HDD</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>4500</value>
+		</constructor-arg>
+	</bean>-->
+	
+	<bean id="product" class="com.zensar.spring_core.beans.Product">
+		<constructor-arg value="123"  index="2" type="double"></constructor-arg>
+		<constructor-arg value="IPad"  index="1" type="java.lang.String"></constructor-arg>
+		<constructor-arg value="90000"  index="0" type="int"></constructor-arg>
+		<property name="productId">
+			<value>101</value>
+		</property>  
+		<property name="productName" value="Laptop"></property>
+		<property name="productCost" value="80000"></property>
+	</bean>
+
+
+</beans>
