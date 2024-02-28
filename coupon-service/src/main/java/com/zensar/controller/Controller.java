@@ -19,9 +19,7 @@ import com.zensar.dto.CouponDto;
 import com.zensar.service.CouponService;
 
 @RestController
-@RequestMapping(value = "/coupon-api", produces = { MediaType.APPLICATION_JSON_VALUE,
-		MediaType.APPLICATION_XML_VALUE }, consumes = { MediaType.APPLICATION_JSON_VALUE,
-				MediaType.APPLICATION_XML_VALUE })
+@RequestMapping(value = "/coupon-api")
 public class Controller {
 	@Autowired
 	private CouponService couponService;
